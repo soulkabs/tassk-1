@@ -1,0 +1,32 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-size: 24px; }
+  .content {
+    border: none;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    padding: 0px; }
+  nav {
+    display: none; }
+  .infoPart {
+    display: block;
+    padding-top: 10px; }
+  .infoPart .infoPart__img {
+    width: 100%; }
+  .infoPart__text {
+    padding-top: 20px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    color: #323296; }
+  .content {
+    border: 1px solid #c1bebe;
+    -ms-grid-columns: 35% 62%;
+    grid-template-columns: 35% 62%;
+    padding: 5px; }
+  .infoPart .infoPart__img {
+    width: 90%; }
+  .infoPart__text {
+    padding-top: 50px; }
+  ul {
+    font-size: 19px; } }
